@@ -7,7 +7,7 @@ A Pomodoro timer that lives in the macOS menu bar (Windows/Linux system tray). C
 This is the **capstone** of the series — every prior episode shows up somewhere: window flags + capabilities (Ep 1), plugin-notification (Ep 3), `WebviewWindow` show/hide (Ep 4), plugin-store (Ep 5), `Mutex<AppState>` (Ep 7), and the CI matrix from Ep 9 still ships this app to three platforms without changes.
 
 - **Watch on YouTube:** https://www.youtube.com/watch?v=AffSwDFz-g0
-- **Read on Codegiz:** https://codegiz.com/blog/tauri-patterns-episode-10-build-a-menu-bar-timer-in-tauri-2
+- **Read on Codegiz:** https://www.codegiz.com/blog/tauri-patterns-episode-10-build-a-menu-bar-timer-in-tauri-2/
 - **Series index:** https://github.com/GoCelesteAI/tauri-patterns
 
 ## What this app shows
