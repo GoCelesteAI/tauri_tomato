@@ -1,0 +1,71 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  background: transparent;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 100vh;
+  padding: 32px;
+  background: rgba(10, 14, 20, 0.96);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 193, 49, 0.18);
+}
+
+.clock {
+  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-size: 72px;
+  font-weight: 700;
+  color: #ffd971;
+  letter-spacing: 2px;
+  text-shadow: 0 0 24px rgba(255, 193, 49, 0.3);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 22px;
+  border: 1px solid #ffc131;
+  border-radius: 8px;
+  background: transparent;
+  color: #ffc131;
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+button:hover {
+  background: rgba(255, 193, 49, 0.14);
+}
+
+button:active {
+  background: rgba(255, 193, 49, 0.24);
+}
+
+.counter {
+  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-size: 13px;
+  color: #c4c9d4;
+  letter-spacing: 0.5px;
+}
